@@ -1,0 +1,97 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background: #f1f5f8;
+}
+
+.menu{
+    width: 100%;
+    height: 4rem;
+    background-color: whitesmoke;
+    display: grid;
+    align-items: center;
+    box-shadow: 0rem 1rem 2rem gray;
+}
+
+.menu__container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu__texto{
+    font-size: 2rem;
+    color: blueviolet;
+    font-family: cursive;
+}
+
+.menu__link{
+    display: flex;
+    gap: 2rem;
+    font-size: 1.2rem;
+    font-family: cursive;
+    text-decoration: none;
+}
+
+.menu__link a{
+    color: black;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+}
+
+.menu__link a:hover{
+    color: darkslategray;
+}
+
+main{
+    min-height: calc(100vh - 4rem);
+    display: grid;
+    place-items: center;
+}
+
+.main{
+    text-align: center;
+}
+
+.main__titulo{
+    background: #222;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    margin-bottom: 2.5rem;
+    font-size: 2.5rem;
+    font-family: cursive;
+}
+
+.main__cor{
+    color: hsl(205, 78%, 60%);
+}
+
+.main__botao{
+    font-family: cursive;
+    text-transform: uppercase;
+    color: #222;
+    letter-spacing: 0.2rem;
+    display: inline-block;
+    font-weight: 700;
+    transition: all 0.3s linear;
+    border: 2px solid #222;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+}
+
+.main__botao:hover{
+    color: #fff;
+    background: #222;
+}
+
